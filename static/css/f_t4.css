@@ -1,0 +1,88 @@
+
+body {
+  background: rgba(107, 107, 71, 1) /* R, G, B, непрозрачность */
+}
+
+h1{
+    text-indent: 25px;      /* красная строка */
+    color: #FFCCCC;
+    font-family: Georgia;
+    text-align: center
+}
+h2{
+    text-indent: 25px;      /* красная строка */
+    color: #FFCC99;
+    font-family:  Arial;
+    text-align: center
+}
+h3{
+    text-indent: 25px;      /* красная строка */
+    color: #FFFFCC;
+    font-family: 'Comic Sans MS';
+
+}
+p{
+    margin-top:10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-indent: 25px;      /* красная строка */
+    text-align: justify;    /* выравниваю текст по ширине */
+    font-family: 'Courier New'; /* изменяю шрифт если есть Times... то ставится этот шрифт, если нет то следующий*/
+}
+.red-text{
+    color: red;
+    background-color: black;
+}
+table {
+  margin-top:10px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+/*  width: 1000px; /* длина ячейки*/
+/*  border-top: 70px solid rgb(43, 129, 17);*/
+/*  border-collapse: collapse; /* отображение границ collapse - как одна ячейка, separate - отдельные ячейки   */
+  text-align: center; /* центровка текста  */
+  margin-bottom: 20px; /* внешний отступ внизу элемента 10px-абсолютная длина, 1em-относительно размера текста, 5%-относительно размера родительского блока  */
+  border: 1px solid #dddddd;
+}
+
+td {
+  text-align: left;
+	padding: 10px;
+	border: 3px solid rgb(43, 129, 17);
+}
+
+th {
+  text-align: center;
+  padding: 10px;
+	border: 3px solid rgb(43, 129, 17);
+ }
+ button {
+  text-align: center;
+  font-size: 20px;
+  width: 75%;
+  max-width: 300px;
+  min-width: 150px;
+  padding: 15px 15px 19px 15px;
+  margin: 20px auto 50px auto;
+ }
+ form {
+  text-align: center;
+  font-size: 20px;
+  width: 75%;
+  max-width: 600px;
+  min-width: 300px;
+  padding: 15px 15px 19px 15px;
+  margin: 20px auto 50px auto;
+
+ }
+ input[type="submit"] {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  background-image: linear-gradient(to right, #57a0ee, #355f7c);
+  color: white;
+  text-transform: uppercase;
+  transition: background-color 0.25s;
+}
